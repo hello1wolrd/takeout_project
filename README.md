@@ -16,6 +16,7 @@
 <li><h5>Celery<h5></li>
 <li><h5>MySQL<h5></li>
 <li><h5>Coroutine<h5></li>
+<li><h5>DJango 单元测试<h5></li>
 </ol>
 等一系列知识的深入掌握
 
