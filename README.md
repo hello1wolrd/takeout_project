@@ -7,17 +7,16 @@
 ====
 以复杂的业务逻辑， 训练自己对于:
 <ol>
-<li><h5>BB<h5></li>
+<li><h5>Python<h5></li>
+<li><h5>ReactJs<h5></li>
+<li><h5>Restful<h5></li>
+<li><h5>DJango<h5></li>
+<li><h5>MongoDB<h5></li>
+<li><h5>Redis<h5></li>
+<li><h5>Celery<h5></li>
+<li><h5>MySQL<h5></li>
+<li><h5>Coroutine<h5></li>
 </ol>
-*  ##### python
-##### ReactJs
-##### restful
-##### DJango
-##### mongodb
-##### Redis
-##### Celery
-##### mysql
-##### coroutine
 等一系列知识的深入掌握
 
 
