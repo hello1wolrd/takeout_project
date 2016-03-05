@@ -5,8 +5,8 @@
 
 项目目的：
 ====
-以复杂的业务逻辑， 训练自己对于
-python
+以复杂的业务逻辑， 训练自己对于  
+#### python
 ReactJs
 restful
 DJango
