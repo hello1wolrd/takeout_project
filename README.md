@@ -33,3 +33,5 @@
 9、项目托管在github  
 10、Django、 python 等相关pyp使用virtualwrapper进行管理  
 
+项目设计（详细查看doc/*.doc)
+====
