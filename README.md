@@ -7,14 +7,14 @@
 ====
 以复杂的业务逻辑， 训练自己对于
 ##### python
-ReactJs
-restful
-DJango
-mongodb
-Redis
-Celery
-mysql
-coroutine
+##### ReactJs
+##### restful
+##### DJango
+##### mongodb
+##### Redis
+##### Celery
+##### mysql
+##### coroutine
 等一系列知识的深入掌握
 
 
