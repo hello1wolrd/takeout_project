@@ -8,7 +8,7 @@
 以复杂的业务逻辑， 训练自己对于python、ReactJs、restful、DJango、mongodb、Redis、Celery、mysql等一系列知识的深入掌握
 ----
 
-基本规范：
+##基本规范：##
 ====
 1、python编码格式采用PEP8
 2、海量价值不高、 不涉及事务的数据采用mongodb进行存储
