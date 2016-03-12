@@ -14,7 +14,7 @@
 <li><h5>MongoDB<h5></li>
 <li><h5>Redis<h5></li>
 <li><h5>Celery<h5></li>
-<li><h5>MySQL<h5></li>
+<li><h5>PostgreSQL<h5></li>
 <li><h5>Coroutine<h5></li>
 <li><h5>DJango 单元测试<h5></li>
 </ol>
@@ -25,9 +25,9 @@
 ====
 1、python编码格式采用PEP8  
 2、海量价值不高、 不涉及事务的数据采用mongodb进行存储  
-3、缓存使用redis  
-4、所有后台需要并发处理的事件， 采用celer+redis 的消息队列方式进行处理  
-5、基本的用户信息采用mysql进行存储  
+3、缓存使用redis 
+4、所有后台需要并发处理的事件， 采用celery + redis 的消息队列方式进行处理  
+5、基本的用户信息采用PostgreSQL进行存储  
 6、前端统一使用grant进行打包  
 7、DJango采用Fat Models, Utility Modules, Thin Views, Stupid Templates 原则  
 8、服务器采用centos + nginx + uwsgi 配置 , uwsgi管理系统使用The Master FIFO（详细配置见文档） 
