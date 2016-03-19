@@ -27,12 +27,13 @@
 2、海量价值不高、 不涉及事务的数据采用mongodb进行存储  
 3、缓存使用redis 
 4、所有后台需要并发处理的事件， 采用celery + redis 的消息队列方式进行处理  
-5、基本的用户信息采用PostgreSQL进行存储  
+5、基本的用户信息采用MySql进行存储  
 6、前端统一使用grant进行打包  
 7、DJango采用Fat Models, Utility Modules, Thin Views, Stupid Templates 原则  
 8、服务器采用centos + nginx + uwsgi 配置 , uwsgi管理系统使用The Master FIFO（详细配置见文档） 
 9、项目托管在github  
 10、Django、 python 等相关PyPi使用virtualwrapper进行管理  
+11、Local、Product的secret_key 采用环境变量存储配置工程
 
 项目设计（详细查看doc/*.doc)
 ====
