@@ -5,7 +5,7 @@
     <ul>
     <span>{{latest_question_list.1.question_text}}</span>
     {% for question in latest_question_list %}
-        {#<span>{{question.question_text}}</span>#}
+
         <li><a  href="{% url 'hello:detail' question.id %}">{{question.question_text}}</li>
     {% endfor %}
     </ul>
