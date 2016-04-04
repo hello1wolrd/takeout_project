@@ -1,0 +1,12 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>{% block title %} {% endblock title %}</title>
+    {% block style%} {% endblock style %}
+</head>
+<body>
+{% block body %} {% endblock body %}
+</body>
+</html>

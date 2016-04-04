@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %} 注册 {% endblock title %}
+
+{% block body %}
+
+{# err --------- #}
+{% if user_err %}
+<strong>{{user_err}}</strong>
+{% endif %}
+
+
+<form method="POST" action="{% url 'index:register' %}">
+    {% csrf_token %}
+    <label for="username"><input name="username" id="username"></label><br><br>
+    <label for="password"><input name="password" id="password"></label><br><br>
+    <label for="password1"><input name="password1" id="password1"></label><br><br>
+    <input type="submit" value="Vote" />
+</form>
+
+{% if err_msg %}
+{{err_msg}}
+{% endif %}
+{% endblock body %}
